@@ -1,0 +1,49 @@
+*{
+    box-sizing: 0;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("Background.png");
+}
+.col{
+    padding-top: 40px;
+}
+.col #se{
+    
+    border-radius: 50px;
+}
+.col a:hover{
+    color: sienna;
+}
+.col a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: white;
+}
+.col h2 {
+    color: white;
+}
+h1{
+    font-style: italic;
+    color: white;
+}
+#error{
+    font-style: italic;
+    color: white;
+}
+#div2{
+    position: relative;
+    top: 120px;
+
+}
+#div2 .btn{
+    position: relative;
+    left: 60px;
+
+    color: #a858cc;
+    background-color: white;
+}
